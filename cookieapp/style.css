@@ -1,0 +1,55 @@
+#form-container {
+    text-align: center;
+}
+#form-container > fieldset {
+    display: inline;
+    width: 50%;
+}
+
+#task-create-form > select,button {
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+}
+#task-create-form > select {
+    width: 100%;
+    padding: 8px;
+}
+#task-create-form > input {
+    padding: 8px;
+}
+
+.btn {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.task-div {
+    text-align: center;
+    border: 1px solid;
+    padding: 9px;
+    display: block;
+    width: 40%;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.task-content {
+    width: 100%;
+}
+
+.bgred {
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+}
+.bggreen {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+.bgyellow {
+    background-color: goldenrod;
+    color: white;
+    font-weight: bold;
+}
