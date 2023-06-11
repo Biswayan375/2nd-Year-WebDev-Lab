@@ -1,0 +1,21 @@
+* { margin: 0; padding: 0; font-family: sans-serif; box-sizing: border-box }
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	top: 0;
+	background-color: #dfdfff;
+	padding: 20px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.logout-btn {
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	padding: 8px;
+	border: 3px dashed black;
+	cursor: pointer;
+}

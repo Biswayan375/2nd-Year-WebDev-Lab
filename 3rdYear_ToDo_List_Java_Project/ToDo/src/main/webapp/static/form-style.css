@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+* { margin:0; padding:0; font-family: "sans-serif" }
+.container {
+	text-align: center;
+}
+.container > form {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	top: 40px;
+	width: 40%;
+}
+.container > form > input {
+	margin: 5px;
+	padding: 10px;
+	font-size: 20px;
+}
+.btn {
+	margin: 5px;
+	padding: 10px;
+	font-size: 20px;
+	cursor: pointer;
+}
